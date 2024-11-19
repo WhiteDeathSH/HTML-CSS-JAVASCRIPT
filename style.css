@@ -1,0 +1,117 @@
+body {
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/12cbe8a4-f55c-4b40-85bb-d8e1405e7b84/df1wdk7-fa62d5b6-a1b2-4b2b-b407-02e737476148.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzEyY2JlOGE0LWY1NWMtNGI0MC04NWJiLWQ4ZTE0MDVlN2I4NFwvZGYxd2RrNy1mYTYyZDViNi1hMWIyLTRiMmItYjQwNy0wMmU3Mzc0NzYxNDguZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.mLCZ3Vy_z29MbBgLUgiJIocq4NNs0o-pr276Ju8hAtA') no-repeat center center fixed;
+    background-size: cover;
+    }
+    
+    header {
+      
+    background-color: gold;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    border-radius: 100px;
+    }
+    
+    header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display:inline-flex;
+   
+    }
+    
+    header nav ul li button {
+    margin-right: 20px;
+    cursor: pointer;
+   
+    
+    }
+    
+    header nav a {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    }
+
+    
+    
+    main {    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 50px;
+   
+    }
+  
+    
+    h1, h2, h3 {
+    color: #333;
+    }
+    
+    button {
+    
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    }
+    
+    button:hover {
+    background-color: #444;
+
+    
+    }
+    
+    .tutorial-content {
+    display: none;
+    
+    }
+    .javascript{
+       
+            background-color: aqua;
+            padding: 3em;
+            margin-bottom: 20px;
+            box-shadow: 0 0 10px rgba(88, 72, 72, 0.1);
+            border-radius: 20px ;
+            position: absolute;
+            right: 150px;
+            text-align: center;
+
+    }
+    .css{
+       
+            background-color: aqua;
+            padding: 3em;
+            margin-bottom: 20px;
+            box-shadow: 0 0 10px rgba(70, 57, 57, 0.1);
+            margin-left: 15em;
+            border-radius: 20px ;
+            position: absolute;
+            left: 500px;
+            text-align: center;
+    }
+   .html  {
+        background-color: aqua;
+        padding: 3em;
+        margin-bottom: 20px;
+        box-shadow: 0 0 10px rgba(88, 72, 72, 0.1);
+        margin: 3em;
+        border-radius: 20px ;
+        text-align: center;
+    
+     
+   }
+
+   footer{
+    margin: 10em;
+    text-align: right;
+    margin-right: 3em;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   }
